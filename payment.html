@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment_style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.js"></script>
+    <title>Payment</title>
+</head>
+<body>
+    <div class="align-center">
+        <div class="card">
+          <header>
+          <h3 class="card-title">Payment Details</h3>
+          <img width="128" alt="Visa Inc. logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/128px-Visa_Inc._logo.svg.png" class="logo"/>
+          <img width="80" alt="Master card. logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png" class="logo2"/>
+          </header>
+          
+          <form action="" class="form">
+            <div class="card-number">
+            <label for="number">Card Number</label>
+            <input id="number" type="text" size="40" placeholder="1234 1234 1234 1234" required/>
+            </div>
+            
+            <div class="card-name">
+            <label for="name">Name</label>
+            <input id="name" type="text" size="40" placeholder="Your Name" required/>
+            </div>
+            
+            <div class="input-row">
+            <div class="select-date">
+            <label for="date">Expiration</label>
+            <select name="" id="date">
+              <option value="00"></option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select name="" id="date">
+              <option value="0000"></option>
+              <option value="2017">23</option>
+              <option value="2018">24</option>
+              <option value="2019">25</option>
+              <option value="2020">26</option>
+              <option value="2021">27</option>
+              <option value="2021">28</option>
+              <option value="2021">29</option>
+              <option value="2021">30</option>
+            </select>
+            </div>
+            
+            <div class="card-cvc">
+            <label for="cvc">CVV</label>
+            <input id="cvc" type="text" size="5" placeholder="123" required/>
+            </div>
+             
+            <div class="buttons">
+            <button class="buy-button" onclick="showAlert()"><a href="#">Complete Purchase</a></button>
+            <br>
+            <br>
+            <button class="buy-button2"><a href="index.html">Return Home</a></button>
+          </div>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+      <script src="payment.js"></script>
+</body>
+</html>

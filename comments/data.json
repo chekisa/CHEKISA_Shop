@@ -1,0 +1,68 @@
+{
+  "currentUser": {
+    "image": { 
+      "png": "./images/avatars/yo.png",
+      "webp": "./images/avatars/yo.webp"
+    },
+    "username": "CHEKISA Shop"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "I really like your store and website. I shop here often.",
+      "createdAt": "3 weeks ago",
+      "score": 9,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/800px-Tina_Arena_Portrait.png/",
+          "webp": "./images/avatars/800px-Tina_Arena_Portrait.webp"
+        },
+        "username": "Emma Johnson"
+      },
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "When are new products added to your store? I love your products",
+      "createdAt": "2 days ago",
+      "score": 5,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/800px-Woman_1.png",
+          "webp": "./images/avatars/800px-Woman_1.png"
+        },
+        "username": "Mia Wilson"
+      },
+      "replies": [
+        {
+          "id": 3,
+          "content": "Yes, we will provide it as soon as possible",
+          "createdAt": "1 days ago",
+          "score": 4,
+          "replyingTo": "Mia Wilson",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/yo.png",
+              "webp": "./images/avatars/yo.webp"
+            },
+            "username": "CHEKISA Shop"
+          }
+        },
+        {
+          "id": 4,
+          "content": "Thanks for reply!",
+          "createdAt": "1 days ago",
+          "score": 2,
+          "replyingTo": "Mia Wilson",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/800px-Woman_1.png",
+              "webp": "./images/avatars/800px-Woman_1.png"
+            },
+            "username": "Mia Wilson"
+          }
+        }
+      ]
+    }
+  ]
+}

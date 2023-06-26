@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/home_background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.align-center {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  height: 320px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 0 #222, 2px 2px 15px rgba(0,0,0,0.9);
+  background: linear-gradient(to right, #000000, #282828);
+  position:  relative;
+}
+
+
+.card-title {
+  float:left;
+  margin-left: 15px;
+}
+
+.logo, .logo2  {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 80%;
+  height: 100%;
+  /* padding-top: 110px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-number {
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: white;
+}
+.card-number input {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  font-family: 'Electrolize', sans-serif;
+  color: #fff;
+  border: solid rgb(136, 136, 136) 1px;
+}
+
+.card-name {
+  clear: both;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.card-name input {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Electrolize', sans-serif;
+  border: solid rgb(136, 136, 136) 1px;
+}
+
+input:focus {
+  color: #fff;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+.input-row{
+  display: flex;
+  align-items: last baseline;
+  width: inherit;
+
+}
+.select-date {
+  clear: both;
+  float: left;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.card-cvc {
+  float: left;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.card-cvc input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: 'Electrolize', sans-serif;
+  border: solid rgb(136, 136, 136) 1px;
+  padding: 3px;
+}
+
+select {
+  border: none;
+  background-color: rgba(255,255,255, 0.2);
+  color: #fff;
+  margin-right: 5px;
+}
+
+option {
+  color: #000000;
+}
+
+.buy-button, .buy-button2 {
+  width: 150px;
+  font-family: 'Electrolize', sans-serif;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 6px;
+  box-shadow: -2px 0px 6px 1px #000000;
+  background-color: #FFAB40;
+  border:none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.buy-button a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.buy-button2 a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+.buy-button:hover {
+  background-color: #66BB6A;
+  transition: linear 0.2s;
+}
+
+.buy-button2:hover {
+  background-color: #bb1c1c;
+  transition: linear 0.2s;
+}
+
+.buttons{
+display: flex;
+position: absolute;
+right:  0px;
+bottom: 0px;
+
+}
